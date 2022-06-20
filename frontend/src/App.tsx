@@ -1,14 +1,14 @@
 import Navbar from 'components/Navbar';
 import './assets/styles/custom.scss';
 import './App.css';
+import Home from 'pages/Home';
 
 function App() {
   return (
-  <>
-    <Navbar/>
-    <h1>Hello Carros top</h1>
-  </>
-  )
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;

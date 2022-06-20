@@ -1,33 +1,29 @@
+.nav-logo-text{
+  color: #00285F;
+  size: 24px;
+}
+
 .main-nav {
-    height: 70px;
-    padding-left: 24px;
-    display: flex;
-}
-
-.main-nav div {
-    display: flex;
-    align-items: center;
-    
-}
-
-.nav-logo-text,
-.nav-logo-text:hover {
-  color: #00285f;
+  min-height: 70px;
+  padding-left: 20px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-menu {
-  font-size: 18px;
-  width: 280px;
   display: flex;
   justify-content: space-between;
+  font-size: 18px;
+  width: 280px;
 }
 
-.main-menu li a {
+.main-menu a {
   font-weight: 400;
+  margin-right: 70px;
 }
 
-.main-menu li a:hover, 
-.main-menu li .active {
+.main-menu a:hover,
+.main-menu .active {
   font-weight: 700;
 }
