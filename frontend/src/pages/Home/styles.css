@@ -52,6 +52,9 @@
 }
 
 @media (min-width: 576px) {
+  .home-container {
+    padding: 20px;
+  }
   .home-content-container  {
     padding: 0 0 42px 0;
     width: 437px;
