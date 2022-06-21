@@ -1,5 +1,5 @@
-.nav-logo-text{
-  color: #00285F;
+.nav-logo-text {
+  color: #00285f;
   size: 24px;
 }
 
@@ -26,4 +26,14 @@
 .main-menu a:hover,
 .main-menu .active {
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .main-nav div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .main-menu a {
+    margin: 0 20px 0 30px;
+  }
 }
