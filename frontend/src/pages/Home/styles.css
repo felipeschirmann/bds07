@@ -37,16 +37,35 @@
   line-height: 16px;
 }
 
-.home-painel-container{
+.home-painel-container {
   margin-top: 20px;
-  background: #EDEDED;
+  background: #ededed;
   border-radius: 10px;
   text-align: center;
   padding: 28px;
 }
 
-.home-painel-container p{
+.home-painel-container p {
   margin-top: 10px;
   margin-bottom: 0;
   color: #585858;
+}
+
+@media (min-width: 576px) {
+  .home-content-container h1 {
+    font-size: 36px;
+  }
+  .home-content-container p {
+    margin-top: 13px;
+    font-size: 18px;
+    padding: 0px 20px 0px 35px;
+  }
+  .home-painel-container {
+    display: flex;
+    flex-direction: row;
+    padding: 42px 62px 42px 85px;
+  }
+  .home-painel-container p {
+    margin-left: 16px;
+  }
 }
