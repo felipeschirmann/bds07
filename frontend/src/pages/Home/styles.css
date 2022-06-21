@@ -52,13 +52,16 @@
 }
 
 @media (min-width: 576px) {
+  .home-content-container  {
+    padding: 0 0 42px 0;
+    width: 437px;
+  }
   .home-content-container h1 {
     font-size: 36px;
   }
   .home-content-container p {
     margin-top: 13px;
     font-size: 18px;
-    padding: 0px 20px 0px 35px;
   }
   .home-painel-container {
     display: flex;
