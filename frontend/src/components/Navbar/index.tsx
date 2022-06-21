@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar bg-primary navbar-expand-md navbar-light bg-primary main-nav">
         <div className="container-fluid">
           <a href="/" className="nav-logo-text">
-            <h4>Carros Top</h4>
+            <h3>Carros Top</h3>
           </a>
           <button
             className="navbar-toggler"
