@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 .home-container {
   background-color: #fff;
   padding: 20px 10px;
@@ -16,9 +20,11 @@
 
 .home-image-container {
   margin: 62px 28px 35px 28px;
+  width: 244px;
+  height: 146px;
 }
 
-.home-content-container svg {
+.home-image-containe svg {
   width: 100%;
   height: auto;
 }
@@ -55,7 +61,18 @@
   .home-container {
     padding: 20px;
   }
-  .home-content-container  {
+
+  .home-image-container {
+    width: 333px;
+    height: 199px;
+  }
+
+  .home-image-container svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-content-container {
     padding: 0 0 42px 0;
     width: 437px;
   }
@@ -73,5 +90,61 @@
   }
   .home-painel-container p {
     margin-left: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-image-container {
+    width: 455px;
+    height: 272px;
+  }
+
+  .home-image-container svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-content-container {
+    margin-bottom: 124px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-nav div,
+  .home-container {
+    width: 979px;
+  }
+
+  .home-card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .home-image-container {
+    width: 333px;
+    height: 199px;
+  }
+  .home-content-container p,
+  .home-content-container h1 {
+    margin: 0;
+    padding: 0;
+    text-align: start;
+  }
+
+  .home-content-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-nav div a {
+    width: 200px;
   }
 }
