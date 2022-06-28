@@ -1,0 +1,32 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  margin: 0 0 20px 0;
+}
+.search-box button {
+  height: 40px;
+  border-radius: 0 10px 10px 0;
+}
+
+.search-box input {
+  height: 40px;
+  width: 100%;
+  max-width: 584px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+@media (min-width: 576px) {
+  .search-box {
+    padding: 40px 20px;
+    line-height: 400;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-box {
+    padding: auto;
+    line-height: 400;
+  }
+}

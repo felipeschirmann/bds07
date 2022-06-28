@@ -1,6 +1,6 @@
 import './styles.css';
 import ProductImg from 'assets/images/car-card 1.png';
-import Button from 'components/Button';
+import ProductButton from 'components/ProductButton';
 
 const ProductCard = () => {
   return (
@@ -15,7 +15,7 @@ const ProductCard = () => {
           nisi
         </p>
       </div>
-      <Button />
+      <ProductButton />
     </div>
   );
 };
