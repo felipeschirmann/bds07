@@ -1,16 +1,9 @@
-body {
-  background-color: #fff;
-}
-
 .home-container {
-  background-color: #fff;
   padding: 20px 10px;
 }
 
 .home-card {
   background-color: #00285f;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,8 +38,6 @@ body {
 
 .home-painel-container {
   margin-top: 20px;
-  background: #ededed;
-  border-radius: 10px;
   text-align: center;
   padding: 28px;
 }
@@ -137,7 +128,7 @@ body {
     text-align: start;
   }
 
-  .home-content-container{
+  .home-content-container {
     display: flex;
     flex-direction: column;
     margin: 0;

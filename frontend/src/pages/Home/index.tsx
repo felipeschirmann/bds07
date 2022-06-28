@@ -9,7 +9,7 @@ const Home = () => {
       <Navbar />
       <div className="content">
         <div className="home-container">
-          <div className="home-card">
+          <div className="base-card home-card">
             <div className="home-image-container">
               <MainImage />
             </div>
@@ -21,7 +21,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="home-painel-container">
+          <div className="base-card home-painel-container">
             <Button />
             <p>Comece agora a navegar</p>
           </div>
